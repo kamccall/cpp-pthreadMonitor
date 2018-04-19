@@ -29,6 +29,8 @@ public:
     cout << "COND SIGNAL in A executed" << endl;
 
     cout << "woke up from methodA..." << endl;
+    
+    // @THURMAN TRY COMMENTING OUT THE FOLLOWING LINE
     pthread_mutex_unlock(&mutex); 
   }
 
